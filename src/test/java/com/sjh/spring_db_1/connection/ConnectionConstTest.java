@@ -1,6 +1,5 @@
-package com.sjh.spring_db_1.Connection;
+package com.sjh.spring_db_1.connection;
 
-import com.sjh.spring_db_1.connection.ConnectionConst;
 import com.zaxxer.hikari.HikariDataSource;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -14,7 +13,7 @@ import java.sql.SQLException;
 import static com.sjh.spring_db_1.connection.ConnectionConst.*;
 
 @Slf4j
-public class ConnectionTest {
+public class ConnectionConstTest {
 
     @Test
     void driverManager() throws SQLException {

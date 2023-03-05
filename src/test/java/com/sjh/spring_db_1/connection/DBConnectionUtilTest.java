@@ -1,8 +1,6 @@
-package com.sjh.spring_db_1.Connection;
+package com.sjh.spring_db_1.connection;
 
-import com.sjh.spring_db_1.connection.DBConnectionUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
